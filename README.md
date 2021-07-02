@@ -6,7 +6,8 @@ The template creates the below resources:
 1. Creates Storage account which allows traffic from public internet
 2. Creates File Share (LogicApp App settings refer to this which create Logic App host runtime directories and files)
 3. Creates App Service Plan (Workflow standard -WS1) to host Standard Logic App resources
-4. Creates the Standard Logic App 
-5. Creates Application Insights for Logic App resource insights
+4. Creates Application Insights for Logic App resource insights
+5. Creates the Standard Logic App 
+
 
 **Disclaimer**: The templates provided are samples, you may verify and make changes as per your requiremenrts. Any concerns or queries feel free to let me know.
