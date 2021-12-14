@@ -152,10 +152,6 @@
                             "value": "workflowApp"
                         },
                         {
-                            "name": "WEBSITE_VNET_ROUTE_ALL",
-                            "value": "0"
-                        },
-                        {
                             "name": "WEBSITE_DNS_SERVER",
                             "value": "168.63.129.16"
                         },
@@ -168,12 +164,8 @@
                             "name": "AzureFunctionsJobHost__extensionBundle__version",
                             "value": "[1.*, 2.0.0)",
                             "slotSetting": false
-                        },
-                        {
-                            "name": "WEBSITE_CONTENTOVERVNET",
-                            "value": "1",
-                            "slotSetting": false
                         }
+                        
                     ],
                     "use32BitWorkerProcess": "[parameters('use32BitWorkerProcess')]",
                     "cors": {
